@@ -1,0 +1,130 @@
+{cursor:url(https://i.postimg.cc/C1wtkYhP/kuwo.png), auto;}
+body {
+    background: #e2e2e2;
+    background-size: 25px 25px; 
+    background-image: linear-gradient(to right, #d7d7d7 1px, transparent 1px), linear-gradient(to bottom, #d7d7d7 1px, transparent 1px);
+  cursor:url(https://i.postimg.cc/C1wtkYhP/kuwo.png), auto;
+}
+
+.lowbar {
+    width: 190px; height: 30px; position: absolute; margin: 320px 585px; z-index: 999; z-index: 999;cursor:url(https://i.postimg.cc/C1wtkYhP/kuwo.png), auto;
+}
+.subtis {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.subu {
+	width: 260px; height: 150px;border-top: 1px solid #d4d4d4; border-bottom: 1px solid #d4d4d4; position: absolute; top: 25px;
+	}
+	
+.subu img
+{
+    position: absolute;
+    width: 260px;
+    height: 150px;
+}
+.subu:hover .subtis {
+	opacity: 1;
+	
+}
+
+.signup {
+width: 130px; height: 180px; background: rgba(255,255,255,0.2); position: absolute; z-index: 999; left: 800px; top: 140px; border-radius: 15px; border: 1.5px solid #d4d4d4; box-shadow: 5px 5px rgba(0,0,0,0.05);animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 35px); }
+    to   { transform: translate(0, -0px); }    
+}
+.signup img{ position: absolute; left: 15px; top: 5px; width: 40px; height:40px; border-radius: 50%;border: 2px solid rgba(70, 90, 135, 0.57);}
+.su {
+width: 100px; height: 100px; position: absolute; left: 15px; top: 70px;
+}
+
+.su1 {
+font-size: 7px; text-transform: uppercase; text-align: center; margin-bottom: 5px; font-family: poppins; letter-spacing: 0.5px;
+}
+
+.su2 {
+width: 100px; height: 15px;  margin-bottom: 3px; display: flex; align-items: center; font-size: 8px;
+}
+
+.sui {
+font-size: 10px; margin-right: 5px; color: #475A88; padding-top: 2px;
+}
+
+.su3 {
+width: auto; height: auto; margin-top: 5px; padding: 5px 20px; text-transform: uppercase; font-size: 7px; background: rgba(70, 90, 135, 0.77); display: inline-block; border-radius: 6px; text-align: center; margin-left: 25px;
+}
+
+.youtube {
+width: 260px; height: 220px; border: 1px solid #d4d4d4; top: 100px; left: 480px; position: absolute; box-shadow: 5px 5px rgba(0,0,0,0.05); border-radius: 15px; ;overflow: hidden; transition: 0.3s; z-index: 999;
+}
+.youtube:hover {
+    transform: scale(1.1); transition: 0.3s; z-index: 9999999;
+}
+
+.yt {
+width: 260px; height: 25px; background: rgba(245,245,245, 0.3); backdrop-filter: blur(4px); position: absolute;
+}
+
+.yt1 {
+width: 240px; height: 28px; display: flex; align-items: center; font-size: 8px; font-weight: 600; font-family: poppins; text-transform: uppercase;padding: 0px 10px;
+}
+
+.yt2 {
+float: left; font-size: 12px; color:#475A88; margin-right: 7px; padding-top: 3px;
+}
+
+.yt3 {
+width: 240px; height: 4px; background: rgba(255,255,255,0.5); overflow: hidden; position: absolute; left: 10px; bottom: 21px;
+}
+
+.yt4 {
+width: 240px; height: 15px; position: absolute; left: 10px; bottom: 3px; font-size: 8px;
+}
+
+.yt5 {
+width: 260px; height: 43px; background: rgba(245,245,245, 0.3); backdrop-filter: blur(4px); position: absolute; bottom: 0px;
+}
+
+.yt6 {
+width: 240px; height: 20px; position: relative; top: 5px; left: 10px; font-size: 8px; font-weight: 600; font-family: poppins; text-transform: uppercase;
+}
+
+.yt7 {
+font-weight: 400; font-size: 5px; margin-top: 3px; letter-spacing: 1px;
+}
+
+.yt8 {
+width: 40px; height: 10px; position: absolute; bottom: 25px; right: 10px; font-size: 9px; color:#475A88; text-align: right;
+}
+
+.yt9 {
+width: 160px; height: 90px; background: rgba(245,245,245,1); position: absolute; left: 620px; top: 300px; border-radius: 15px; border: 1px solid #d4d4d4; box-shadow: 5px 5px rgba(0,0,0,0.05);overflow: hidden; transition: 0.3s; z-index: 999;
+}
+.yt9:hover {
+    transform: scale(1.1); transition: 0.3s; z-index: 9999999;
+}
+.yt10 {
+width: 20px; height: 20px; position: absolute; font-size: 24px; color:rgba(70, 90, 135, 0.57); text-align: center; margin-top: 9px;margin-left:70px;
+}
+
+.yt11 {
+font-family: poppins; text-transform: uppercase; font-weight: 700; font-size: 9px; color: #475A88; letter-spacing: 2px;margin-top:-2px;margin-left:-3px;
+}
+
+.yt12 {
+width: 130px; margin-left: -55px; font-size: 7px; color: #1d1d1d; line-height: 160%; text-transform: uppercase;
+}
