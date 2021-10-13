@@ -128,3 +128,14 @@ font-family: poppins; text-transform: uppercase; font-weight: 700; font-size: 9p
 .yt12 {
 width: 130px; margin-left: -55px; font-size: 7px; color: #1d1d1d; line-height: 160%; text-transform: uppercase;
 }
+.linkz {
+width: 10px; height:10px; border-radius: 50%; border: 1px solid #c4c4c4; display: inline-block; margin: 0px 5px; background: #C2C0BA;cursor:url(https://i.postimg.cc/C1wtkYhP/kuwo.png), auto;
+}
+
+.linkz:hover {
+    width: 10px; height:10px; border-radius: 50%; border: 1px solid #B2A699;transition: 0.3s;cursor:url(https://i.postimg.cc/C1wtkYhP/kuwo.png), auto;
+}
+
+.lowbar {
+    width: 160px; height: 30px; position: absolute; margin: 390px 510px; z-index: 999; z-index: 999;
+}
