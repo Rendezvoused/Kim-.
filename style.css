@@ -37,7 +37,7 @@ body {
 }
 
 .signup {
-width: 130px; height: 180px; background: rgba(255,255,255,0.2); position: absolute; z-index: 999; left: 800px; top: 140px; border-radius: 15px; border: 1.5px solid #d4d4d4; box-shadow: 5px 5px rgba(0,0,0,0.05);animation-name: floating;
+width: 130px; height: 180px; background: rgba(255,255,255,0.2); position: absolute; z-index: 999; left: 800px; top: 200px; border-radius: 15px; border: 1.5px solid #d4d4d4; box-shadow: 5px 5px rgba(0,0,0,0.05);animation-name: floating;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;}
@@ -69,7 +69,7 @@ width: auto; height: auto; margin-top: 5px; padding: 5px 20px; text-transform: u
 }
 
 .youtube {
-width: 260px; height: 220px; border: 1px solid #d4d4d4; top: 100px; left: 480px; position: absolute; box-shadow: 5px 5px rgba(0,0,0,0.05); border-radius: 15px; ;overflow: hidden; transition: 0.3s; z-index: 999;
+width: 260px; height: 220px; border: 1px solid #d4d4d4; top: 160px; left: 480px; position: absolute; box-shadow: 5px 5px rgba(0,0,0,0.05); border-radius: 15px; ;overflow: hidden; transition: 0.3s; z-index: 999;
 }
 .youtube:hover {
     transform: scale(1.1); transition: 0.3s; z-index: 9999999;
@@ -112,7 +112,7 @@ width: 40px; height: 10px; position: absolute; bottom: 25px; right: 10px; font-s
 }
 
 .yt9 {
-width: 160px; height: 90px; background: rgba(245,245,245,1); position: absolute; left: 620px; top: 300px; border-radius: 15px; border: 1px solid #d4d4d4; box-shadow: 5px 5px rgba(0,0,0,0.05);overflow: hidden; transition: 0.3s; z-index: 999;
+width: 160px; height: 90px; background: rgba(245,245,245,1); position: absolute; left: 620px; top: 360px; border-radius: 15px; border: 1px solid #d4d4d4; box-shadow: 5px 5px rgba(0,0,0,0.05);overflow: hidden; transition: 0.3s; z-index: 999;
 }
 .yt9:hover {
     transform: scale(1.1); transition: 0.3s; z-index: 9999999;
